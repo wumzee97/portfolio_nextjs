@@ -8,13 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+     
+      colors: {
+        'primary': '#D3E97A',
+        'neutral-black': '#0A0A0A',
+        'neutral-offwhite': '#C7C7C7'
       },
+      fontFamily: {
+        bebas: ['var(--font-bebas-neue)'],
+        manrope: ['var(--font-manrope)'],
+        inter: ['var(--font-inter)']
+      }
     },
   },
   plugins: [],
 };
 export default config;
+
