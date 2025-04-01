@@ -37,7 +37,7 @@ const AboutSection = () => {
                 </div>
                 <div className="col-span-12">
 
-                    <Image src={ImageSrc}  alt="Adewumi Alabi" className="mt-12 h-[800px] w-full object-cover rounded-2xl " />
+                    <Image src={ImageSrc}  alt="Adewumi Alabi" className="mt-12 lg:h-[800px] h-[300px] w-full object-cover rounded-2xl " />
                 </div>
             </div>
         </>
