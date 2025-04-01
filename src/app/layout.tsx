@@ -17,6 +17,11 @@ const bebas = localFont({
 export const metadata: Metadata = {
   title: "ADEWUMI ALABI | Software Engineer",
   description: "A Lagos based Software Engineer knowledgeable about current trends in user interfaces, inter-connectivity and back-end infrastructure. Expertly handles development lifecycle with meticulous approach and big-picture understanding of requirements.",
+  openGraph: {
+    title: 'ADEWUMI ALABI | Software Engineer',
+    description: "A Lagos based Software Engineer knowledgeable about current trends in user interfaces, inter-connectivity and back-end infrastructure. Expertly handles development lifecycle with meticulous approach and big-picture understanding of requirements.",
+    images: 'https://adewumialabi.com/og.png'
+  }
 };
 
 export default function RootLayout({
